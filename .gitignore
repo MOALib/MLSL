@@ -1,0 +1,7 @@
+*.mls
+*.exe
+.vscode/
+html/
+latex/
+
+!syntax.mls

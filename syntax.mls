@@ -1,0 +1,94 @@
+# MLS Log
+# It is called the MXPSQL Logging System language
+# This is the syntax sheet
+
+# The syntax and example
+# [Date] [Severity] message # this is a log
+# this is comment
+# The date is obvious, the date is when it was logged
+# The severity can be the following: no severity, [unknown], [debug], [info], [high-heel], [notice], [warning], [error] and [critical]
+# There is another level, but it cannot be used to log and therefore is used to turn off logging, [OFF]. Another one is [unknown], use it if you don't know what level to choose.
+# The message is whatever you want
+
+# Here is an example
+
+# Debug
+[Fri Jan 1 09:00:00 2000] [debug] System started.
+
+# Notice
+[Sun Mar 7 16:08:05 2001] [notice] User Kate Middleton created user account.
+
+# No severity
+[Sun Mar 7 16:05:49 2004] Nothing here to see.
+
+# Unknown
+[Sun Mar 7 16:06:49 2004] Nothing here to see yet again.
+
+# Info
+[Sun Mar 7 16:07:10 2004] [info] This is an info.
+
+# Notice
+[Sun Mar 7 16:08:05 2004] [notice] User Kate Middleton logged on.
+
+# High-Heel
+[Sun Mar 7 16:15:10 2004] [high-heel] Kate Middleton left text: I'm a Kate.
+
+# Warning
+[Sun Mar 7 16:25:49 2004] [warning] httpd died. 
+
+# Notice
+[Sun Mar 7 17:25:48] [notice] httpd restarted.
+
+# Error
+[Sun Mar 7 18:18:50 2004] [error] Kate Middleton access /tmp/scanlog. File /tmp/scanlog not found
+
+# High-Heel
+[Mon Mar 8 10:15:10 2004] [high-heel] Kate Middleton buys office block heels
+
+# High-Heel
+[Mon Mar 8 11:24:13 2004] [high-heel] Kate Middleton buys stilleto heels
+
+# Warning
+[Mon Mar 8 21:00:09 2004] [warning] Virus detected, virus removed.
+
+# Critical
+[Sat Mar 15 21:00:09 2004] [critical] SIGSEV received, shutting down.
+
+# Notice
+[Wed May 13 09:00:00 2010] [notice] System started.
+
+# Notice
+[Wed May 15 09:00:00 2010] [notice] Antivirus installed.
+
+# Notice
+[Mon Aug 15 10:00:20 2013] [notice] User Kate Middleton logged on.
+
+# Notice
+[Mon Sep 13 10:00:20 2014] [notice] Kate Middleton access /tmp/scanlog
+
+# Notice
+[Mon Aug 17 14:00:31 2015] [notice] Debug mode activated.
+
+# Debug
+[Mon Aug 17 14:01:31 2015] [debug] httpd serving client xxx.xxx.xxx.xxx
+
+# Debug
+[Mon Aug 17 14:05:31 2015] [debug] httpd serving client xxx.xxx.xxx.xxx
+
+# Debug
+[Mon Aug 17 14:01:31 2015] [debug] Antivirus scanning for virus.
+
+# Debug
+[Mon Aug 17 14:01:31 2015] [debug] No virus found
+
+# Notice
+[Mon Aug 17 14:01:31 2015] [notice] Debug mode disabled
+
+# Notice
+[Mon Aug 17 14:01:31 2015] [notice] Kate Middleton access /tmp/scanlog
+
+# Notice
+[Sat Jan 1 21:00:09 2022] [notice] Client xxx.xxx.xxx.xxx served.
+
+# High-Heel
+[Sat Feb 1 09:00:00 2022] [high-heel] Kate Middleton buys stilleto heels.
